@@ -1,0 +1,164 @@
+html {
+  height: 100%;
+}
+
+body {
+font-family: "Avenir Next";
+margin: 0;
+padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+/*header*/
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding:0 20px;
+}
+
+header{
+  width: 100%;
+  height: 140px;
+  background-color: #e7decd;
+  top: 0;
+ /* display: none;*/
+}
+
+.header-list ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.header-list {
+ font-size: 25px;
+ font-weight: bold;
+ color: #707070;
+ text-decoration: underline;
+}
+
+.header-list a{
+  color: #707070;
+  width: 150px;
+  line-height: 150px;
+  display: block;
+}
+.header-logo img{
+ width: 60%;
+ height: 50%;
+ padding-top: 30px;
+ padding-left: 20px;
+}
+/*passion*/
+/*passion-wrapper*/
+
+.passion-wrapper {
+  text-align: center;
+  width: 100%;
+}
+.p-wrapper-img img{
+  width: 100%;
+  position: relative;
+}
+.p-logo {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 260px;
+}
+/*pasion-text*/
+.passion-main {
+ background-color: #e7decd;
+ padding: 20px 120px 0 120px;
+ }
+ .p-text {
+   text-align: center;
+   margin: 0 auto;
+   width: 1000px;
+ }
+ .p-wrapper-img {
+   margin: -8px 0;
+ }
+.p1 {
+  display: flex;
+  margin-top: 68px;
+}
+.p-image1 {
+  width: 450px;
+}
+.p-image1 img {
+  width: 100%;
+  margin-bottom: -8px;
+}
+.p-text1 {
+background-color: white;
+width: 450px;
+text-align: center;
+padding-top: 46px;
+}
+.p-text1 h2 {
+  font-size: 24px;
+}
+
+.p2 {
+  display: flex;
+}
+.p-image2 {
+  width: 450px;
+}
+.p-image2 img {
+  width: 100%;
+}
+.p-text2 {
+  background-color: white;
+  width: 450px;
+  text-align: center;
+  margin-top: -8px;
+}
+.p-text2 h2 {
+  font-size: 18px;
+  padding-top: 35px;
+}
+
+.p3 {
+  text-align: center;
+  padding:50px;
+}
+
+
+
+ /*footer*/
+ .footer-top {
+   background-color: white;
+ }
+.footer-container {
+ height: 240px;
+ width: 100%;
+ margin-top: 50px;
+}
+
+.footer-list ul{
+ display: flex;
+ justify-content: space-between;
+ color: #707070;
+ padding: 20px 100px;
+ text-decoration-line: underline;
+}
+.footer-list a{
+  color: #707070;
+  width: 150px;
+  line-height: 50px;
+  display: block;
+}
+
+.footer-img {
+  text-align: center;
+  width: 100%;
+}
+.footer-img img {
+  width: 25%;
+}

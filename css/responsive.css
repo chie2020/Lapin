@@ -1,0 +1,58 @@
+@media (max-width:1000px) {
+
+.shop {
+  padding: 0 60px;
+}
+.footer-list a{
+  width: 100%;
+}
+
+@media (max-width:680px) {
+
+.top-logo {
+  top: 60px;
+}
+.top-logo img {
+  width: 55%;
+}
+.main-img {
+  padding: 0;
+}
+.news-img img{
+  width: 45%;
+}
+.news-text ul {
+padding: 5px;
+width:  81%;
+}
+/*menu*/
+.menu {
+  padding: 0 10px;
+  padding-bottom: 50px;
+}
+.menu-img {
+  width: 58%;
+}
+
+ .btn_menu_ {
+width: 100%;
+ }
+
+
+/*p*/
+
+.passion-logo {
+  margin: 85px auto;
+  top: -45px;
+}
+
+.shop {
+  flex-direction: column;
+  padding: 0 95px;
+  margin:50px auto;
+  margin-top: 120px;
+}
+.footer-list ul {
+ flex-direction: column; 
+ text-align: center;
+ }
